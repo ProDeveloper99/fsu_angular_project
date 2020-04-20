@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col">
+      <div class="profile__img">
+        <img
+          class="profile__img"
+          src="../../../assets/images/chekov/emanuil.jpg"
+          alt="emanuil_real_identity"
+        />
+      </div>
+    </div>
+    <div class="col align-self-center">
+      <div class="profile__content">
+        <div class="profile__info info1">Name: {{ user.firstName }} {{ user.lastName }}</div>
+        <div class="profile__info info2">About Me: {{ user.aboutMe }}</div>
+        <div class="profile__info info3">E-Mail: {{ user.email }}</div>
+        <div class="profile__info info4">Group: {{ user.groupName }}</div>
+        <div class="profile__info info5">Tel: {{ user.phoneNumber }}</div>
+      </div>
+	</div>
+  </div>
+  <!-- <audio id="audio" controls preload="auto">
+    <source src="http://dl.dropbox.com/u/1538714/article_resources/song.m4a" type="audio/mpeg" />
+    <source src="http://dl.dropbox.com/u/1538714/article_resources/song.ogg" type="audio/ogg" />
+  </audio> -->
+
+
+  <!-- <embed height="0" width="0"
+  src="http://youtube.googleapis.com/v/VIDEO_ID&autoplay=1&loop=1"/> -->
+
+  <audio autoplay>  
+	<source src="./../../../assets/audio/Melancholy_Lake.mp3" type="audio/mpeg">  
+</audio>  
+  <div class="mainContent_footer">
+	
+	<button type="button" class="btn btn-outline-dark"  [routerLink]="['/dashboard']">Go Back</button>
+  </div>
+</div>
