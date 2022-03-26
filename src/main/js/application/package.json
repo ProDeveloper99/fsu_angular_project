@@ -27,7 +27,7 @@
     "tslib": "^1.10.0",
     "typescript": "3.7.5",
     "zone.js": "^0.10.2",
-    "minimist": "^1.2.2",
+    "minimist": "^1.2.6",
     "clean-css": "^4.1.11",
     "cli": "^1.0.0"
   },
@@ -46,7 +46,7 @@
     "rxjs": "^6.5.4",
     "tslib": "^1.10.0",
     "typescript": "3.7.5",
-    "minimist": "^1.2.2",
+    "minimist": "^1.2.6",
     "clean-css": "^4.1.11",
     "cli": "^1.0.0"
   }
